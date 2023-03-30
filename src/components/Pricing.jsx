@@ -116,7 +116,7 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="The incremental"
-            price="$400 / mo"
+            price="$100 / mo"
             description="Good for anyone who wants to pay as they go."
             href="#contact"
             features={[
@@ -130,7 +130,7 @@ export function Pricing() {
           <Plan
             featured
             name="One and done"
-            price="$2400 flat"
+            price="$600 flat"
             description="Perfect for someone who doesn't like reoccuring costs."
             href="#contact"
             features={[
