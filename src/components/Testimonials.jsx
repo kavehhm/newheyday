@@ -68,8 +68,7 @@ export function Testimonials() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            with it. With simplicity comes the greatest depth.
           </p>
         </div>
         <ul
