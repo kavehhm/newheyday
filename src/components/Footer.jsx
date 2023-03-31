@@ -25,7 +25,7 @@ export function Footer() {
          
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
             Copyright &copy; {new Date().getFullYear()} HeyDay Digital. All rights
-            reserved.
+            reserved. Founder - Kaveh Malekzadeh
           </p>
         </div>
       </Container>
