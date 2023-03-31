@@ -27,7 +27,7 @@ const features = [
     image: screenshotAdmin,
   },
   {
-    title: 'Manage user as admin',
+    title: 'Manage user as admin (more features coming soon)',
     description:
       "View, approve, and/or deny your user's appointments while also manually updating their points if need be (points change automatically)",
     image: screenshotAdminManagingUser,
