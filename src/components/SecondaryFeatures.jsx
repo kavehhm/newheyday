@@ -14,9 +14,9 @@ import screenshotComparisonLTV from '@/images/ltv/beforeafter.png'
 const features = [
   {
     name: 'Before integrating HeyDay',
-    summary: 'This is the typical lifetime value (LTV) of a patient at a typical salon.',
+    summary: 'This is the typical lifetime value (LTV) of a client at a typical salon.',
     description:
-      'This is the typical lifetime value that a patient has',
+      'This is the typical lifetime value that a client has',
     image: screenshotBeforeLTV,
     icon: function ReportingIcon() {
       let id = useId()
@@ -49,7 +49,7 @@ const features = [
   {
     name: 'After integrating HeyDay',
     summary:
-      'This is the predicted lifetime value of a patient after integrating HeyDay.',
+      'This is the predicted lifetime value of a client after integrating HeyDay.',
     description:
       'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
     image: screenshotAfterLTV,
@@ -218,7 +218,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Our software is profitable for you after you get your second referral.
+            Our software is profitable for you after you get your first referral.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             (And if we can&apos;t even do that for you, you get your money back)

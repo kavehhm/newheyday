@@ -41,7 +41,7 @@ const faqs = [
   ],
   [
     {
-      question: 'Do my patients need to sign up for anything?',
+      question: 'Do my clients need to sign up for anything?',
       answer:
         'To reduce friction, we allow them to sign in with their Google account and have seamless integration of data.',
     },

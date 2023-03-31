@@ -23,7 +23,7 @@ const features = [
   {
     title: 'Manage users as admin',
     description:
-      "All of your patients organized into one place. Be sure remind them to use your website!",
+      "All of your clients organized into one place. Be sure remind them to use your website!",
     image: screenshotAdmin,
   },
   {

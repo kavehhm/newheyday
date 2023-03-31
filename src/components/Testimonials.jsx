@@ -23,7 +23,7 @@ const testimonials = [
   [
     {
       content:
-        'Our patients are now able to book their appointments online which has helped those who do not enjoy phone calls.',
+        'Our clients are now able to book their appointments online which has helped those who do not enjoy phone calls.',
       author: {
         name: 'Carlos Parajon',
         role: 'Founder of Blossoming Smiles',

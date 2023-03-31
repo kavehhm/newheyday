@@ -24,7 +24,7 @@ export function CallToAction() {
             Get started today
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to obtain more value from your patients .
+            It’s time to obtain more value from your clients .
           </p>
           <Button href="#contact" color="white" className="mt-10">
             Contact Us
