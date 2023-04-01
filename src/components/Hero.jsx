@@ -25,7 +25,7 @@ export function Hero() {
           </svg>
           <span className="relative">made simple</span>
         </span>{' '}
-        for nail salons.
+        for landscapers.
       </h1>
       <p className="mx-auto mt-6 max-w-3xl text-lg tracking-tight text-slate-700">
         Incentivize your clients to refer their peers, and harvest the lifetime value

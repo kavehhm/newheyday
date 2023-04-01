@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>HeyDay - Referrals made simple for nail salons</title>
+        <title>HeyDay - Referrals made simple for landscapers</title>
         <meta
           name="description"
-          content="Increase client retention and lifetime value by gamifying their experience at your nail salon."
+          content="Increase client retention and lifetime value by gamifying their experience with your landscaping service."
         />
       </Head>
       <Header />

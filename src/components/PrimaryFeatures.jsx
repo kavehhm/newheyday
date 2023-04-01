@@ -73,7 +73,7 @@ export function PrimaryFeatures() {
             Everything you need to get more referrals.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Increase client retention and lifetime value by gamifying their experience at your salon.
+            Increase client retention and lifetime value by gamifying their experience with your service.
           </p>
         </div>
         <Tab.Group
