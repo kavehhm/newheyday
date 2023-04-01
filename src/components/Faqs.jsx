@@ -24,13 +24,13 @@ const faqs = [
     {
       question: 'How do the points work?',
       answer:
-        'They work how you want them to work. Generally if a user has enough points, they are able to claim a free or half off session.',
+        'They work how you want them to work. Generally if a user has enough points, they are able to claim a free or half off trim.',
     },
     {
       question:
         'How do users get points?',
       answer:
-        'A user can get points by having an appointment of theirs approved (+10 points) or by referring a friend and that friend making first approved appointment (+100 points).',
+        'A user can get points by having an appointment of theirs approved (+10 points) or by referring a friend and that friend having their first approved appointment (+100 points).',
     },
     {
       question:
