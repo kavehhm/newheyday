@@ -73,12 +73,12 @@ function Plan({ name, price, description, href, features, featured = false }) {
           featured ? 'text-white' : 'text-slate-200'
         )}
       >
-        {/* {features.map((feature) => (
+        {features.map((feature) => (
           <li key={feature} className="flex">
             <CheckIcon className={featured ? 'text-white' : 'text-slate-400'} />
             <span className="ml-4">{feature}</span>
           </li>
-        ))} */}
+        ))}
       </ul>
       <Button
         href={href}
@@ -113,49 +113,45 @@ export function Pricing() {
             It doesn’t matter how you prefer to pay, we accommodate for all.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="-mx-4 mt-16 items-center grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="The incremental"
-            price="$100 / mo"
-            description="Good for anyone who wants to pay as they go."
+            name="Starter"
+            price="$69 / mo"
+            description="Useful if you just want to incentivize longer client lifespan."
             href="#contact"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Track your clients',
+              'Manage your clients',
+              'Point System',
+              'Retention incentive program',
             ]}
           />
           <Plan
             featured
-            name="One and done"
-            price="$600 flat"
-            description="Perfect for someone who doesn't like reoccuring costs."
+            name="Advanced"
+            price="$89 / mo"
+            description="Useful if you want the ability to incentive longer client lifespan AND new referrals."
             href="#contact"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Track your clients',
+              'Manage your clients',
+              'Point System',
+              'Retention incentive program',
+              'Referral incentive program',
             ]}
           />
-          <Plan
+          {/* <Plan
             name="Custom"
-            price="$? + $?/mo"
+            price="$? / mo"
             description="Want to pay differently? No problem. We accommodate for all."
             href="#contact"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Track your clients',
+              'Manage your appointments',
+              'Appointment incentive program',
+              'Referral incentive program',
             ]}
-          />
+          /> */}
         </div>
       </Container>
     </section>

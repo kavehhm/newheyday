@@ -8,16 +8,16 @@ const faqs = [
     {
       question: 'How do I integrate into my site?',
       answer:
-        'We simply add a User Portal button to your current website that redirect users to the software.',
+        'We simply add a User Portal button to your website that redirect users to the software.',
     },
     {
-      question: 'How do the appointments work?',
-      answer: 'A user requests an appointment and you can approve it or deny as the admin. If a reschedule is needed, you can call them to let them know.',
+      question: 'How do the monthly terms work?',
+      answer: 'Every month, after the user pays for your services, their points are automatically updated.',
     },
     {
       question: 'How do referrals work?',
       answer:
-        'Every user has a referral code and the option to state who referred them. After I add a referral code and have my first approved appointment, my referrer gets 100 points.',
+        'Every user has a referral code and the option to state who referred them. After a client adds a referral code and has their first payment succeeded, their referrer gets 100 points.',
     },
   ],
   [
@@ -28,9 +28,9 @@ const faqs = [
     },
     {
       question:
-        'How do users get points?',
+        'How do clients get points?',
       answer:
-        'A user can get points by having an appointment of theirs approved (+10 points) or by referring a friend and that friend having their first approved appointment (+100 points).',
+        'A client can get points by having using your service for a month (+10 points) or by referring a friend and that friend having their first month with you (+100 points).',
     },
     {
       question:
@@ -46,8 +46,8 @@ const faqs = [
         'To reduce friction, we allow them to sign in with their Google account and have seamless integration of data.',
     },
     {
-      question: 'How do I know when a user has requested an appointment?',
-      answer: 'You will receive an email with the user\'s information along with a link to manage the user.',
+      question: 'How do I know when a user has made a change?',
+      answer: 'You will receive an email with the user\'s change along with a link to manage the user.',
     },
     {
       question: 'What if I don\'t like this software?',

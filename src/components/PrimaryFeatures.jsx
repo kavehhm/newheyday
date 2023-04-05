@@ -17,19 +17,19 @@ const features = [
   {
     title: 'User experience',
     description:
-      "How a user manages their account, adds referrals, books appointments, and tracks their previous appointments.",
+      "How a client manages their account, adds referrals, manually adds months if need be, and tracks their previous months.",
     image: screenshotUser,
   },
   {
-    title: 'Manage users as admin',
+    title: 'Manage clients as admin',
     description:
       "All of your clients organized into one place. Be sure remind them to use your website!",
     image: screenshotAdmin,
   },
   {
-    title: 'Manage user as admin',
+    title: 'Manage client as admin',
     description:
-      "View, approve, and/or deny your user's appointments while also manually updating their points if need be (points change automatically). New Features coming here soon.",
+      "View, approve, and/or deny your user's months while also manually updating their points if need be (points change automatically). New Features coming here soon.",
     image: screenshotAdminManagingUser,
   },
  
@@ -70,10 +70,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to get more referrals.
+            Everything you need to keep clients for longer.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Increase client retention and lifetime value by gamifying their experience with your service.
+            Increase client retention and lifetime value by gamifying their experience with your agency.
           </p>
         </div>
         <Tab.Group
