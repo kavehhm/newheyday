@@ -120,6 +120,7 @@ export function Pricing() {
             description="Useful if you just want to incentivize longer client lifespan."
             href="#contact"
             features={[
+              'Hosting',
               'Track your clients',
               'Manage your clients',
               'Point System',
@@ -133,6 +134,7 @@ export function Pricing() {
             description="Useful if you want the ability to incentive longer client lifespan AND new referrals."
             href="#contact"
             features={[
+              'Hosting',
               'Track your clients',
               'Manage your clients',
               'Point System',

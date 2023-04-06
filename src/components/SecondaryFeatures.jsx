@@ -14,7 +14,7 @@ import screenshotComparisonLTV from '@/images/ltv/beforeafter.png'
 const features = [
   {
     name: 'Before integrating HeyDay',
-    summary: 'This is the typical lifetime value (LTV) of a client at a typical landscaping client.',
+    summary: 'This is an examlpe lifetime value (LTV) of a client at an agency .',
     description:
       'This is the typical lifetime value that a client has',
     image: screenshotBeforeLTV,

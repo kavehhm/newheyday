@@ -5,32 +5,36 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+
 import screenshotUser from '@/images/screenshots/user.png'
 import screenshotAdmin from '@/images/screenshots/adminmanage.png'
 import screenshotAdminManagingUser from '@/images/screenshots/adminmanageuser.png'
+import managerewards from '@/images/screenshots/managerewards.png'
 
 const features = [
   {
     title: 'User experience',
     description:
-      "How a client manages their account, adds referrals, manually adds months if need be, and tracks their previous months.",
+      "How a client manages their account, adds referrals, and views their rewards.",
     image: screenshotUser,
   },
   {
     title: 'Manage clients as admin',
     description:
-      "All of your clients organized into one place. Be sure remind them to use your website!",
+      "All of your clients organized into one place. Be sure remind them to use you HeyDay!",
     image: screenshotAdmin,
   },
   {
     title: 'Manage client as admin',
     description:
-      "View, approve, and/or deny your user's months while also manually updating their points if need be (points change automatically). New Features coming here soon.",
+      "View your users info and rewards while also manually updating their points if need be (points change automatically).",
     image: screenshotAdminManagingUser,
+  },
+  {
+    title: 'Manage rewards as admin',
+    description:
+      "Create, delete, and view the rewards you are offering your clients for their loyalty to you",
+    image: managerewards,
   },
  
 ]

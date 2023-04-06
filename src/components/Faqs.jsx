@@ -6,9 +6,9 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'How do I integrate into my site?',
+      question: 'How do I set things up?',
       answer:
-        'We simply add a User Portal button to your website that redirect users to the software.',
+        'We take care of all aspects of setup and maintenance.',
     },
     {
       question: 'How do the monthly terms work?',
@@ -17,26 +17,26 @@ const faqs = [
     {
       question: 'How do referrals work?',
       answer:
-        'Every user has a referral code and the option to state who referred them. After a client adds a referral code and has their first payment succeeded, their referrer gets 100 points.',
+        'Every user has a referral code and the option to state who referred them. Every time a client refers another client, they get rewarded with points.',
     },
   ],
   [
     {
       question: 'How do the points work?',
       answer:
-        'They work how you want them to work. Generally if a user has enough points, they are able to claim a free or half off trim.',
+        'They work how you want them to work. Generally if a user has enough points, they are able to claim a reward.',
     },
     {
       question:
         'How do clients get points?',
       answer:
-        'A client can get points by having using your service for a month (+10 points) or by referring a friend and that friend having their first month with you (+100 points).',
+        'A client can get points by having using your service for a month (+10 points) or by referring a friend.',
     },
     {
       question:
         'Can I change the gamification?',
       answer:
-        'Yes you can change  how many points a user is awarded for referrals or approved appointments. You can also change what the points get them.',
+        'Yes you can change  how many points a user is awarded for referrals or successful months. You can also change what the points get them.',
     },
   ],
   [
@@ -46,8 +46,8 @@ const faqs = [
         'To reduce friction, we allow them to sign in with their Google account and have seamless integration of data.',
     },
     {
-      question: 'How do I know when a user has made a change?',
-      answer: 'You will receive an email with the user\'s change along with a link to manage the user.',
+      question: 'How do I know when a user has claimed a reward?',
+      answer: 'You will receive an email with the user\'s reward along with a link to manage the user.',
     },
     {
       question: 'What if I don\'t like this software?',

@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>HeyDay - Referrals made simple for landscapers</title>
+        <title>HeyDay - Referrals & retention made simple for agencies</title>
         <meta
           name="description"
-          content="Increase client retention and lifetime value by gamifying their experience with your landscaping service."
+          content="Increase client retention and lifetime value by gamifying their experience with your agency."
         />
       </Head>
       <Header />
