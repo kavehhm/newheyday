@@ -85,9 +85,10 @@ export default function ContactUs() {
                   <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  <a className="hover:text-white" href="mailto:kaveh@heydaydigital.io">
-                    kaveh@heydaydigital.io
+                  <a className="hover:text-white" href="mailto:admin@heydaydigital.io">
+                    admin@heydaydigital.io {' '}
                   </a>
+                 
                 </dd>
               </div>
             </dl>
